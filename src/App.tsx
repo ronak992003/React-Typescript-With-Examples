@@ -25,7 +25,13 @@ function App() {
         
       </div>
       <div className="card">
-       <Button title="Sign Out" />
+        {"Home "}
+       <Button title="Sign Out" onClick={()=> alert("Sign Out")} />
+        
+      </div>
+      <div className="card">
+        {"Contact "}
+       <Button title="Contact"  onClick={()=> alert("Contact")}/>
         
       </div>
     </>
