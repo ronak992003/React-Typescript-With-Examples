@@ -1,7 +1,7 @@
 import type { JSX } from "react";
 
 
-const Button: () => JSX.Element = () => {
+const Buttonfunc: () => JSX.Element = () => {
     
     const ButtonTitle: () => JSX.Element = () => {
         const availableMoney:number = 1000;
@@ -19,4 +19,4 @@ const Button: () => JSX.Element = () => {
   )
 }
 
-export default Button
+export default Buttonfunc
