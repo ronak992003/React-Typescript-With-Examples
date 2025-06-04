@@ -26,7 +26,7 @@ function App() {
       </div>
       <div className="card">
         {"Home "}
-       <Button title="Sign Out" onClick={()=> alert("Sign Out")} />
+       <Button title="Sign Out" disabled onClick={()=> alert("Sign Out")} />
         
       </div>
       <div className="card">
