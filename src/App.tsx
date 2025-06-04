@@ -31,7 +31,7 @@ function App() {
       </div>
       <div className="card">
         {"Contact "}
-       <Button title="Contact"  onClick={()=> alert("Contact")}/>
+       <Button title="Contact" objArr={[{id:"", title:""}]}  onClick={()=> alert("Contact")}/>
         
       </div>
     </>
